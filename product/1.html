@@ -304,15 +304,6 @@
                                                         </div>
                                                     </div>
                                                     <div x-data="{ open: false, toggle() { if (this.open) { return this.close(); } this.$refs.button.focus(); this.open = true; }, close(focusAfter) { if (! this.open) return; this.open = false; focusAfter &amp;&amp; focusAfter.focus(); } }" x-on:keydown.escape.prevent.stop="close($refs.button)" x-on:focusin.window="!$refs.panel.contains($event.target) &amp;&amp; close()" class="rmyi7">
-                                                        <button type="button" x-ref="button" x-on:click="toggle()" class="w087s brf1v rf655 tv4ql">
-                                                            <img src="https://exodusmenu.pro/assets/img/arduino.png" alt="Arduino Leonardo" class="m2ifh yisx5 njm15 m7yoh yj1zp z6nxq s0a8k gd3ux">
-                                                            <div class="w087s brf1v crq6u">
-                                                                <p class="cqe12 j5gki lw0vv">Arduino Leonardo</p>
-                                                                <svg xmlns="http://www.w3.org/2000/svg" class="gicjx" fill="currentColor" viewbox="0 0 256 256">
-                                                                    <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
-                                                                </svg>
-                                                            </div>
-                                                        </button>
                                                         </div>
                                                     </div>
                                                 </div>
