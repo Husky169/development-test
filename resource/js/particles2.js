@@ -3,13 +3,13 @@
         <link rel="modulepreload" href="./build/assets/app-Cu8h15KX.js">
         <link rel="stylesheet" href="./build/assets/app-Ck-h5v4U.css" data-navigate-track="reload">
         <script type="module" src="./build/assets/app-Cu8h15KX.js" data-navigate-track="reload"></script>
-        <script src="./build/assets/aos.min.js"></script>
+        <script src="https://exodusmenu.pro/build/assets/aos.min.js"></script>
         <script>
             AOS.init({
                 once: true,
             });
         </script>
-        <script src="./build/assets/particles.min.js"></script>
+        <script src="https://exodusmenu.pro/build/assets/particles.min.js"></script>
         <script>
             particlesJS("particles-js", {
                 particles: {
