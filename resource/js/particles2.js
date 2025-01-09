@@ -31,7 +31,7 @@
                   }
               },
               'size': {
-                  'value': 3,
+                  'value': 10,
                   'random': true,
                   'anim': {
                       'enable': false,
@@ -77,14 +77,14 @@
               },
               'modes': {
                   'grab': {
-                      'distance': 140,
+                      'distance': 400,
                       'line_linked': {
                       'opacity': 0.5
                       }
                   },
                   'bubble': {
                       'distance': 400,
-                      'size': 40,
+                      'size': 4,
                       'duration': 0.3,
                       'opacity': 1,
                       'speed': 3
