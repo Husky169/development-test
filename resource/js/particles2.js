@@ -1,5 +1,3 @@
-let accent = "#8400ff" 
-
       particlesJS('particles-js', {
           'particles': {
               'number': {
