@@ -1,4 +1,4 @@
-let accent = "#8400ff" 
+let accent = "#7800d2" 
 
 particlesJS("particles-div", {
     "particles": {
