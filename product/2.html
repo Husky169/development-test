@@ -274,41 +274,60 @@
                                 </div>
                             </section>
                         </div>
-                        <div x-cloak x-show="isPurchaseModalOpen" class="xlaqr xf5mc pebib hpo2d" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-                            <div class="w087s soqph x4p52 hhu7q od6v1 wbire q8wrn yqyqt">
-                                <div x-on:click="isPurchaseModalOpen = false" x-show="isPurchaseModalOpen" x-transition:enter="pop9c v2pv6 ki254 llxds" x-transition:enter-start="czz6w" x-transition:enter-end="zxvqe" x-transition:leave="pop9c bwv0t apiop llxds" x-transition:leave-start="zxvqe" x-transition:leave-end="czz6w" class="xlaqr xf5mc yd936 arphq" aria-hidden="true"></div>
-                                <div x-show="isPurchaseModalOpen" x-transition:enter="pop9c v2pv6 ki254 llxds" x-transition:enter-start="czz6w yjtc1 gr4hs o07ik" x-transition:enter-end="zxvqe hu41m t7dxz" x-transition:leave="pop9c bwv0t apiop llxds" x-transition:leave-start="zxvqe hu41m t7dxz" x-transition:leave-end="czz6w yjtc1 gr4hs o07ik" class="m88xo ktjn6 nlnss u38o2 hhirc mm2y9 r32jf llxds klfz0">
-                                    <div class="w087s brf1v mr9hs a24ig">
-                                        <h1 class="osxi2 zs6xf y9zq0">Choose Payment Method</h1>
-                                        <button x-on:click="isPurchaseModalOpen = false" class="ok093 uyc1o c7q2m">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="g1456" fill="currentColor" viewbox="0 0 256 256">
-                                                <path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                    <div class="w087s sj2dx rf655">
-                                        <div class="qmz4i rd4gi jx3pv pop9c ki254 vnr3a wlmml ntyml eb61n">
-                                            <a :href="`#`" x-on:click="isPurchaseModalOpen = false" class="ktjn6 w087s x4p52 brf1v crq6u lllpn d06wa wbire f7cn9 zs6xf docuv klfz0 wlmml cg517 goal3">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="gicjx c22np" fill="currentColor" viewbox="0 0 256 256">
-                                                    <path d="M224,48H32A16,16,0,0,0,16,64V192a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V64A16,16,0,0,0,224,48Zm0,16V88H32V64Zm0,128H32V104H224v88Zm-16-24a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h32A8,8,0,0,1,208,168Zm-64,0a8,8,0,0,1-8,8H120a8,8,0,0,1,0-16h16A8,8,0,0,1,144,168Z"></path>
-                                                </svg>
-                                                Credit/Debit Card
-                                            </a>
-                                        </div>
-                                        <button type="button" x-on:click="() =&gt; { isPurchaseModalOpen = false; document.documentElement.scrollTop = 0; window.openSellSnModal('1d240bf5-aad6-4f3d-b3e6-5a6a9572f45f', activeProductId) }" class="ktjn6 fdiee x4p52 brf1v crq6u lllpn d06wa wbire f7cn9 zs6xf xf4p6 docuv rd4gi wlmml ntyml pop9c ki254 vnr3a cg517 goal3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="gicjx c22np" fill="currentColor" viewbox="0 0 256 256">
-                                                <path d="M220.12,93.54a55.8,55.8,0,0,0-20.19-16.18A56,56,0,0,0,144,24H84A16,16,0,0,0,68.48,36.12l-36,144A16,16,0,0,0,48,200h27.5l-3,12.12A16,16,0,0,0,88,232h31.5A16,16,0,0,0,135,219.88L144,184h32a56,56,0,0,0,44.14-90.46ZM48,184,84,40h60a40,40,0,0,1,39.3,32.49A57,57,0,0,0,176,72H120a16,16,0,0,0-15.53,12.12L79.52,184H48ZM183,88.62c-.08.36-.15.72-.24,1.08A39.94,39.94,0,0,1,144,120H112l8-32h56A40.07,40.07,0,0,1,183,88.62Zm31.76,49.08A39.94,39.94,0,0,1,176,168H144a16,16,0,0,0-15.52,12.12l-9,35.88H88l20-80h36a55.9,55.9,0,0,0,54-41.39,40.2,40.2,0,0,1,9.48,8.77A39.73,39.73,0,0,1,214.78,137.7Z"></path>
-                                            </svg>
-                                            PayPal 
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="gicjx c22np" fill="currentColor" viewbox="0 0 256 256">
-                                                <path d="M178.48,115.7A44,44,0,0,0,152,40.19V24a8,8,0,0,0-16,0V40H120V24a8,8,0,0,0-16,0V40H72a8,8,0,0,0,0,16h8V192H72a8,8,0,0,0,0,16h32v16a8,8,0,0,0,16,0V208h16v16a8,8,0,0,0,16,0V208h8a48,48,0,0,0,18.48-92.3ZM176,84a28,28,0,0,1-28,28H96V56h52A28,28,0,0,1,176,84ZM160,192H96V128h64a32,32,0,0,1,0,64Z"></path>
-                                            </svg>
-                                            Cryptocurrency
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<div x-cloak x-show="isPurchaseModalOpen" class="xlaqr xf5mc pebib hpo2d" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <div class="w087s soqph x4p52 hhu7q od6v1 wbire q8wrn yqyqt">
+        <div x-on:click="isPurchaseModalOpen = false" x-show="isPurchaseModalOpen" x-transition:enter="pop9c v2pv6 ki254 llxds" x-transition:enter-start="czz6w" x-transition:enter-end="zxvqe" x-transition:leave="pop9c bwv0t apiop llxds" x-transition:leave-start="zxvqe" x-transition:leave-end="czz6w" class="xlaqr xf5mc yd936 arphq" aria-hidden="true"></div>
+        <div x-show="isPurchaseModalOpen" x-transition:enter="pop9c v2pv6 ki254 llxds" x-transition:enter-start="czz6w yjtc1 gr4hs o07ik" x-transition:enter-end="zxvqe hu41m t7dxz" x-transition:leave="pop9c bwv0t apiop llxds" x-transition:leave-start="zxvqe hu41m t7dxz" x-transition:leave-end="czz6w yjtc1 gr4hs o07ik" class="m88xo ktjn6 nlnss u38o2 hhirc mm2y9 r32jf llxds klfz0">
+            <div class="w087s brf1v mr9hs a24ig">
+                <h1 class="osxi2 zs6xf y9zq0">Choose Payment Method</h1>
+                <button x-on:click="isPurchaseModalOpen = false" class="ok093 uyc1o c7q2m">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="g1456" fill="currentColor" viewbox="0 0 256 256">
+                        <path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="w087s sj2dx rf655">
+                <div class="qmz4i rd4gi jx3pv pop9c ki254 vnr3a wlmml ntyml eb61n">
+                    <a :href="`#`" x-on:click="isPurchaseModalOpen = false" class="ktjn6 w087s x4p52 brf1v crq6u lllpn d06wa wbire f7cn9 zs6xf docuv klfz0 wlmml cg517 goal3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="gicjx c22np" fill="currentColor" viewbox="0 0 256 256">
+                            <path d="M224,48H32A16,16,0,0,0,16,64V192a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V64A16,16,0,0,0,224,48Zm0,16V88H32V64Zm0,128H32V104H224v88Zm-16-24a8,8,0,0,1-8,8H168a8,8,0,0,1,0-16h32A8,8,0,0,1,208,168Zm-64,0a8,8,0,0,1-8,8H120a8,8,0,0,1,0-16h16A8,8,0,0,1,144,168Z"></path>
+                        </svg>
+                        Credit/Debit Card
+                    </a>
+                </div>
+                <button type="button" onclick="openSellauthCheckout()" class="ktjn6 fdiee x4p52 brf1v crq6u lllpn d06wa wbire f7cn9 zs6xf xf4p6 docuv rd4gi wlmml ntyml pop9c ki254 vnr3a cg517 goal3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="gicjx c22np" fill="currentColor" viewbox="0 0 256 256">
+                        <path d="M220.12,93.54a55.8,55.8,0,0,0-20.19-16.18A56,56,0,0,0,144,24H84A16,16,0,0,0,68.48,36.12l-36,144A16,16,0,0,0,48,200h27.5l-3,12.12A16,16,0,0,0,88,232h31.5A16,16,0,0,0,135,219.88L144,184h32a56,56,0,0,0,44.14-90.46ZM48,184,84,40h60a40,40,0,0,1,39.3,32.49A57,57,0,0,0,176,72H120a16,16,0,0,0-15.53,12.12L79.52,184H48ZM183,88.62c-.08.36-.15.72-.24,1.08A39.94,39.94,0,0,1,144,120H112l8-32h56A40.07,40.07,0,0,1,183,88.62Zm31.76,49.08A39.94,39.94,0,0,1,176,168H144a16,16,0,0,0-15.52,12.12l-9,35.88H88l20-80h36a55.9,55.9,0,0,0,54-41.39,40.2,40.2,0,0,1,9.48,8.77A39.73,39.73,0,0,1,214.78,137.7Z"></path>
+                    </svg>
+                    PayPal 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="gicjx c22np" fill="currentColor" viewbox="0 0 256 256">
+                        <path d="M178.48,115.7A44,44,0,0,0,152,40.19V24a8,8,0,0,0-16,0V40H120V24a8,8,0,0,0-16,0V40H72a8,8,0,0,0,0,16h8V192H72a8,8,0,0,0,0,16h32v16a8,8,0,0,0,16,0V208h16v16a8,8,0,0,0,16,0V208h8a48,48,0,0,0,18.48-92.3ZM176,84a28,28,0,0,1-28,28H96V56h52A28,28,0,0,1,176,84ZM160,192H96V128h64a32,32,0,0,1,0,64Z"></path>
+                    </svg>
+                    Cryptocurrency
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openSellauthCheckout() {
+        // Triggering checkout modal directly
+        window.sellAuthEmbed.checkout(null, {
+            cart: [{
+                productId: 231534,
+                // Replace with the actual product ID
+                variantId: 295898,
+                // Replace with the actual variant ID
+                quantity: 1
+            }],
+            shopId: 102606,
+            // Replace with your actual shop ID
+            modal: true // Set to true to open the modal
+        });
+    }
+</script>
+
                     </div>
                 </main>
             </div>
