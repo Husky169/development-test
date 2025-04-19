@@ -5,12 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="max-snippet:-1,max-image-preview:large,max-video-preview:-1">
         <link rel="canonical" href="https://exodusmenu.pro/product/1">
-        <meta name="description" content='test'>
+        <meta name="description" content="test">
         <title>Exodus | FiveM</title>
         <meta name="image" content="https://cdn.sellsn.io/14041f2a-86c6-4892-b69d-322db4f56514.png">
         <link href="./favicon.ico" rel="shortcut icon">
         <meta property="og:title" content="Exodus">
-        <meta property="og:description" content='Unlock the next level of gaming with our high quality products'>
+        <meta property="og:description" content="Unlock the next level of gaming with our high quality products">
         <meta property="og:locale" content="en">
         <meta property="og:image" content="https://cdn.sellsn.io/14041f2a-86c6-4892-b69d-322db4f56514.png">
         <meta property="og:url" content="https://exodusmenu.pro/product/1">
@@ -18,10 +18,8 @@
         <meta property="og:type" content="website">
         <meta name="twitter:card" content="summary">
         <meta name="twitter:image" content="">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:image" content="">
         <meta name="twitter:title" content="Exodus">
-        <meta name="twitter:description" content='Unlock the next level of gaming with our high quality products'>
+        <meta name="twitter:description" content="Unlock the next level of gaming with our high quality products">
         <meta name="theme-color" content="#00a4f0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,6 +27,54 @@
         <link rel="preload" as="style" href="https://exodusmenu.pro/build/assets/app-DzsDsvHA.css">
         <link rel="stylesheet" href="https://exodusmenu.pro/build/assets/app-DzsDsvHA.css" data-navigate-track="reload">
         <script src="https://exodusmenu.pro/build/assets/embed.min.js"></script>
+
+        <style>
+            .swiper .swiper-pagination-bullet {
+                background: #202020;
+                opacity: 1
+            }
+
+            .swiper .swiper-pagination-bullet-active {
+                background: #00a4f0
+            }
+
+            .media-swiper:not(.swiper-initialized) .swiper-wrapper .swiper-slide:not(:first-child) {
+                display: none
+            }
+
+            .media-thumb-swiper:not(.swiper-initialized) {
+                height: 60px
+            }
+
+            .media-thumb-swiper:not(.swiper-initialized) .swiper-wrapper .swiper-slide {
+                display: none
+            }
+
+            .media-thumb-swiper .swiper-wrapper .swiper-slide:not(.active) {
+                opacity: .5
+            }
+
+            html.lenis,html.lenis body {
+                height: auto
+            }
+
+            .lenis.lenis-smooth {
+                scroll-behavior: auto!important
+            }
+
+            .lenis.lenis-smooth [data-lenis-prevent] {
+                overscroll-behavior: contain
+            }
+
+            .lenis.lenis-stopped {
+                overflow: hidden
+            }
+
+            .lenis.lenis-smooth iframe {
+                pointer-events: none
+            }
+        </style>
+
     </head>
     <body class="a9eub yesra xf4p6 ickqz" hx-boost="true">
         <div class="lxvuu w087s sj2dx mr9hs">
@@ -83,34 +129,25 @@
                             <div class="afsux">
                                 <div>
                                     <div class="w087s sj2dx crq6u lq4c9 jgmpd" x-ref="products">
-                                        <button type="button" x-on:click="() => openSellauthCheckout('a0863661-3430-4d03-be59-ebcb8cc0e236', '49429266661714')" class="hpk60 ol1ty pop9c r0vas">
+                                        <button type="button" x-on:click="openSellauthCheckout('a0863661-3430-4d03-be59-ebcb8cc0e236', '49429266661714')" class="hpk60 ol1ty pop9c r0vas">
                                             <div class="w087s brf1v mr9hs rf655 ptxm3 zak07">
                                                 <h4 class="cqe12 n0704 y9zq0 lw0vv">Weekly</h4>
                                                 <p class="f7cn9 jx3pv g5upu">&euro;4.99</p>
                                             </div>
                                         </button>
 
-                                        <button type="button" x-on:click="() => openSellauthCheckout('315048ec-127b-417a-b247-db720c0cbe45', '49429266694482')" class="hpk60 ol1ty pop9c r0vas">
+                                        <button type="button" x-on:click="openSellauthCheckout('315048ec-127b-417a-b247-db720c0cbe45', '49429266694482')" class="hpk60 ol1ty pop9c r0vas">
                                             <div class="w087s brf1v mr9hs rf655 ptxm3 zak07">
                                                 <h4 class="cqe12 n0704 y9zq0 lw0vv">Monthly</h4>
                                                 <p class="f7cn9 jx3pv g5upu">&euro;9.99</p>
                                             </div>
                                         </button>
 
-                                        <button type="button" x-on:click="() => openSellauthCheckout('a3ddb7f5-08d2-478a-841a-b11ac9d1ebab', '49429266727250')" class="hpk60 ol1ty pop9c r0vas tqel6">
+                                        <button type="button" x-on:click="openSellauthCheckout('a3ddb7f5-08d2-478a-841a-b11ac9d1ebab', '49429266727250')" class="hpk60 ol1ty pop9c r0vas tqel6">
                                             <div class="w087s brf1v mr9hs rf655 ptxm3 zak07 tqel6">
                                                 <h4 class="cqe12 n0704 y9zq0 lw0vv">Lifetime</h4>
                                                 <p class="f7cn9 jx3pv g5upu">&euro;14.99</p>
                                             </div>
-                                        </button>
-                                    </div>
-
-                                    <div class="r9ar6">
-                                        <button type="button" x-on:click="isPurchaseModalOpen = true" class="ktjn6 fdiee x4p52 brf1v crq6u lllpn d06wa wbire f7cn9 zs6xf xf4p6 docuv rd4gi wlmml ntyml pop9c ki254 vnr3a cg517 goal3">
-                                            Purchase Now 
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="gicjx c22np" fill="currentColor" viewbox="0 0 256 256">
-                                                <path d="M230.14,58.87A8,8,0,0,0,224,56H62.68L56.6,22.57A8,8,0,0,0,48.73,16H24a8,8,0,0,0,0,16h18L67.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,160,204a28,28,0,1,0,28-28H91.17a8,8,0,0,1-7.87-6.57L80.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,230.14,58.87ZM104,204a12,12,0,1,1-12-12A12,12,0,0,1,104,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,200,204Zm4-74.57A8,8,0,0,1,196.1,136H77.22L65.59,72H214.41Z"></path>
-                                            </svg>
                                         </button>
                                     </div>
                                 </div>
@@ -129,19 +166,131 @@
             </main>
         </div>
 
+        <div id="particles-js" class="xlaqr xf5mc ryu0i nkaas qgb8l"></div>
+
         <script>
             function openSellauthCheckout(productId, variantId) {
-                // Triggering checkout modal directly with different productId and variantId
                 window.sellAuthEmbed.checkout(null, {
                     cart: [{
-                        productId: productId,  // Dynamic product ID
-                        variantId: variantId,  // Dynamic variant ID
+                        productId: productId,
+                        variantId: variantId,
                         quantity: 1
                     }],
-                    shopId: 105400,  // Replace with your actual shop ID
-                    modal: true  // Set to true to open the modal
+                    shopId: 105400,
+                    modal: true
                 });
             }
+
+            particlesJS("particles-js", {
+                particles: {
+                    number: {
+                        value: 40,
+                        density: {
+                            enable: true,
+                            value_area: 800
+                        }
+                    },
+                    color: {
+                        value: "#a200ff"
+                    },
+                    shape: {
+                        type: "circle",
+                        stroke: {
+                            width: 0,
+                            color: "#000000"
+                        },
+                        polygon: {
+                            nb_sides: 5
+                        },
+                        image: {
+                            src: "img/github.svg",
+                            width: 100,
+                            height: 100
+                        }
+                    },
+                    opacity: {
+                        value: 0.5,
+                        random: false,
+                        anim: {
+                            enable: false,
+                            speed: 1,
+                            opacity_min: 0.1,
+                            sync: false
+                        }
+                    },
+                    size: {
+                        value: 3,
+                        random: true,
+                        anim: {
+                            enable: false,
+                            speed: 40,
+                            size_min: 0.1,
+                            sync: false
+                        }
+                    },
+                    line_linked: {
+                        enable: true,
+                        distance: 150,
+                        color: "#ba75ff",
+                        opacity: 0.4,
+                        width: 1
+                    },
+                    move: {
+                        enable: true,
+                        speed: 1,
+                        direction: "none",
+                        random: false,
+                        straight: false,
+                        out_mode: "out",
+                        bounce: false,
+                        attract: {
+                            enable: false,
+                            rotateX: 600,
+                            rotateY: 1200
+                        }
+                    }
+                },
+                interactivity: {
+                    detect_on: "canvas",
+                    events: {
+                        onhover: {
+                            enable: true,
+                            mode: "repulse"
+                        },
+                        onclick: {
+                            enable: true,
+                            mode: "push"
+                        },
+                        resize: true
+                    },
+                    modes: {
+                        grab: {
+                            distance: 400,
+                            line_linked: {
+                                opacity: 1
+                            }
+                        },
+                        bubble: {
+                            distance: 400,
+                            size: 40,
+                            duration: 2,
+                            opacity: 8,
+                            speed: 3
+                        },
+                        repulse: {
+                            distance: 200,
+                            duration: 0.4
+                        },
+                        push: {
+                            particles_nb: 4
+                        },
+                        remove: {
+                            particles_nb: 2
+                        }
+                    }
+                },
+                retina_detect: true
+            });
         </script>
     </body>
 </html>
